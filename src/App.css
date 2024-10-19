@@ -1,0 +1,125 @@
+@font-face {
+  src: url(./fonts/Vazir-Bold-FD-WOL.ttf);
+  font-family: vazir-bold;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: vazir-bold;
+  background-color: #c393ff; /* پس‌زمینه ملایم بنفش */
+  direction: rtl; /* راست‌چین کردن متن‌ها */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f0f9;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: right;
+  padding: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #4c2c8e;
+}
+
+input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #7b4fc3;
+  outline: none;
+}
+
+.submit-btn {
+  padding: 12px 18px;
+  background-color: #7b4fc3; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(123, 79, 195, 0.3);
+  font-family: vazir-bold;
+}
+
+.submit-btn:hover {
+  background-color: #693bb3;
+  transition: all 1s;
+}
+
+.result-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.result-container h2 {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 12px 18px;
+  background-color: #9d60ff; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(176, 132, 247, 0.3);
+  font-family: vazir-bold;
+}
+
+.reset-btn:hover {
+  background-color: #b491f0;
+  transition: all 1s;
+}
